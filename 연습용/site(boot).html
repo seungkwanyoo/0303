@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <title>Document</title>
+    <script>
+      $(document).ready(function() {
+    $("#info").hide();
+	  $("#button").click(function(){
+	     $("#info").slideToggle();
+	  });  
+  });
+    </script>
+</head>
+<body>
+    <div id="header">
+        <div class="home">
+            <a href="site(boot).html">WOWFE</a>
+        </div>
+    </div>
+
+    <div id="nav" align="center">
+      <ul class="navbar">
+        <h1 id="button">button눌려보세요</h1>
+      <div id="info">
+	    <p><li><a href="#">사진</a></li></p>
+      </div>
+        
+          
+          <li><a href="#">비디오</a></li>
+          <li><a href="">지도</a></li>
+          <li><a href="#">마이페이지</a></li>
+  
+      </ul>
+    </div>
+    <!-- header -->
+    <!--nav-->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+      </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/봄축제.jpg" alt="Los Angeles" width="1000" height="100">
+            <div class="carousel-caption">
+              <h3>봄</h3>
+              <p>We had such a great time in LA!</p>
+              <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#content2">Get Started</a>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./images/여름축제.jpg" alt="Chicago" width="1000" height="100">
+            <div class="carousel-caption">
+              <h3>여름</h3>
+              <p>Thank you, Chicago!</p>
+              <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#content2">Get Started</a>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./images/단풍축제.jpg" alt="New York" width="1000" height="100">
+            <div class="carousel-caption">
+              <h3>가을</h3>
+              <p>We love the Big Apple!</p>
+              <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#content2">Get Started</a>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./images/빙어축제.jpg" alt="New York" width="1000" height="100">
+            <div class="carousel-caption">
+              <h3>겨울</h3>
+              <p>We love the Big Apple!</p>
+              <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#content2">Get Started</a>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+    <!--contentimg-->
+<p></p>
+<div id="content1">
+  <table style="border: 2px solid orange;">
+    <strong id="fes"> 정보알리미 </strong>
+      <tr>
+          <td><a href=""><img src="images/wow3.png" alt=""></a></td>
+          <td><a href=""><img src="images/wow4.png" alt=""></a></td>
+          <td><a href=""><img src="images/wow5.png" alt=""></a></td>
+          <td><a href=""><img src="images/wow6.png" alt=""></a></td>
+      </tr>
+      <tr>
+          <td>자료신청</td>
+          <td>탐방지도</td>
+          <td>음식점</td>
+          <td>주차장</td>
+      </tr>
+  </table>
+  </div>
+    <p id="pp"></p>
+    <!--content-->
+    <div id="content2" align="center">
+        <table cellpadding="35">
+          <span id="fes"> ✨봄, 여름, 가을, 겨울 축제✨ </span>
+            <tr>
+                <td id="num1"><a href=""><img src="images/spring1.png"></a></td>
+                <td id="num2"><a href=""><img src="images/summer1.png"></a></td>
+                <td id="num3"><a href=""><img src="images/fall1.png"></a></td>
+                <td id="num4"><a href=""><img src="images/winter1.png"></a></td>
+            </tr>
+        </table>
+    </div>
+    <p id="pp"></p>
+
+    <!--content2-->
+
+    <div id="footer">
+        <ul class="foot1">
+            <li>(우)34939, 서울특별시 구로구 하이미디어 | 대표전화 02-606-6114 | 대표팩스 02-334-7933</li>
+            <li>COPYRIGHT (C) 2023 ALL RIGHTS RESERVED.</li>
+        </ul>
+    </div>
+
+        
+</body>
+</html>

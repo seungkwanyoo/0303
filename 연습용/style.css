@@ -1,0 +1,113 @@
+/* css */
+
+*{  
+    margin: 0 auto;
+    list-style: none;
+
+}
+body{
+    background-size: auto;
+}
+#header{
+    background: rgb(216, 180, 180);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 700px;
+}
+
+.menu{
+    font-size: 20pt;
+    width: 15%;
+    height: 100px;
+    float: right;
+    display: inline-flex;
+}
+.home > a{
+    margin-left: 40px;
+    padding : 20px, 20px;
+    font-size: 40pt;
+    font-family: Snap ITC;
+    color: white;
+}
+#nav{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.2;
+}
+.navbar{
+    font-size: 20pt;
+    display: inline-flex;
+    width: 50%;
+    padding: 5px;
+}
+.navbar > li a{
+    color: lightblue;
+    font-weight: bold;
+}
+table{
+    padding: 20px;
+    width: 1100px;
+}
+#fes{
+    padding: 30px;
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+}
+#pp{
+    padding: 70px;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background: rgb(216, 180, 180);
+}
+.foot1{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+}
+#content1{
+    text-align: center;
+}
+/*-------------login-----------------*/
+#login_div{
+    margin-top: 20px;
+    width: 300px;
+    background-color: rgb(240, 230, 230);
+    text-align: center;
+    padding: 20px;
+}
+
+#login{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+}
+
+#btn{
+    background-color: #4e5352;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+    #button	{background:#eee; cursor:pointer; width: 200px; padding: 10px; margin: 0;}
+	#info	{background:#000; overflow:hidden; width: 200px; padding: 10px;}
+	#info	p{font-size:12px; color:#fff; width: 200px;}
