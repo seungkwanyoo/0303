@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <title>Document</title>
+
+    <script>
+      $(document).ready(function() {
+        $('#nav>ul>li').hover(function () {
+        $(this).children('.navbar').stop().slideToggle('slow', 'swing');
+        });
+      });
+    </script>
+</head>
+<body>
+  <div id="header">
+        <div class="home">
+            <a href="site(boot).html">서울 계절별 축제 소개</a>
+        </div>
+    
+      <div id="nav">
+        <ul>  
+            <li><a href="">photo +</a>
+              <ul class="navbar">
+                <li><a href="">축제소개</a></li>
+                <li><a href="">오시는길</a></li>
+                <li><a href="">먹거리</a></li>
+              </ul>
+            </li>
+            <li><a href="">video +</a>
+              <ul class="navbar">
+                <li><a href="">축제 소개</a></li>
+                <li><a href="">오시는길</a></li>
+                <li><a href="">먹거리</a></li>
+              </ul>
+            </li>  
+            <li><a href="">map +</a>
+              <ul class="navbar">
+                <li><a href="">축제 소개</a></li>
+                <li><a href="">오시는길</a></li>
+                <li><a href="">먹거리</a></li>
+              </ul>
+            </li> 
+            <li><a href="">mypage +</a>
+              <ul class="navbar">
+                <li><a href="">축제 소개</a></li>
+                <li><a href="">오시는길</a></li>
+                <li><a href="">먹거리</a></li>
+              </ul>
+            </li>  
+        </ul>  
+      </div>
+    
+  </div>
+    <!-- header -->
+    <!--nav-->
+    <div id="demo" class="carousel slide" data-ride="carousel" data-interval="2000">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+      </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/봄축제.jpg" alt="Los Angeles" width="1000" height="100">
+            <div class="carousel-caption">
+              <h3>봄</h3>
+              <p>We had such a great time in LA!</p>
+              <a class="btn btn-primary btn-lg px-4 me-sm-2" href="spring.html">바로가기</a>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./images/여름축제.jpg" alt="Chicago" width="1000" height="100">
+            <div class="carousel-caption">
+              <h3>여름</h3>
+              <p>Thank you, Chicago!</p>
+              <a class="btn btn-primary btn-lg px-4 me-sm-2" href="summer.html">Get Started</a>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./images/단풍축제.jpg" alt="New York" width="1000" height="100">
+            <div class="carousel-caption">
+              <h3>가을</h3>
+              <p>We love the Big Apple!</p>
+              <a class="btn btn-primary btn-lg px-4 me-sm-2" href="fall.html">Get Started</a>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="./images/빙어축제.jpg" alt="New York" width="1000" height="100">
+            <div class="carousel-caption">
+              <h3>겨울</h3>
+              <p>We love the Big Apple!</p>
+              <a class="btn btn-primary btn-lg px-4 me-sm-2" href="winter.html">Get Started</a>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+
+    <!--contentimg-->
+</body>
+</html>
